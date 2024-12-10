@@ -6,5 +6,5 @@
     months: "3months"
   tasks:
   - name: print information
-    ansible.builtin.debug:
-  msg: "hello iam learning DevOps {{Course}} from Period is {{Period}}, months is {{months}}."
+     ansible.builtin.debug:
+    msg: "hello iam learning DevOps {{Course}} from Period is {{Period}}, months is {{months}}."
